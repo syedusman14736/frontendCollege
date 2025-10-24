@@ -1,0 +1,237 @@
+/* ABOUT HERO-SECTION */
+.about-hero-section {
+  width: 100%;
+  height: 250px;
+  background-image: url(./assets/about\ hero.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.about-hero-section h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;  
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/* ABOUT-TEXT */
+.about-text {
+  width: 100%;
+  min-height: 600px; /* changed height → min-height */
+  padding: 60px;
+}
+
+.about-text h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Poppins", Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.about-text p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6; /* improved readability */
+  padding: 10px 20px;
+}
+
+.about-text ul li {
+  list-style: disc;
+  margin-left: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 5px 0;
+}
+
+/* MESSAGES-SECTION */
+.messages {
+  width: 100%;
+  min-height: 600px; /* allow flexible height */
+  background-image: url(./assets/about\ message.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.message {
+  width: 100%;
+  height: 100%;
+  background-color:whitesmoke;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.message h1 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.message h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.message p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 20px auto; /* center & spacing */
+  text-align: center;
+}
+
+
+
+
+/* Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .about-text {
+    padding: 40px;
+    min-height: auto;
+  }
+
+  .about-text h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .about-text p {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+
+  .about-text ul li {
+    font-size: 14px;
+    margin-left: 25px;
+  }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .about-text {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .about-text h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .about-text p {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 6px 10px;
+  }
+
+  .about-text ul li {
+    font-size: 13px;
+    margin-left: 18px;
+    line-height: 1.4;
+  }
+}
+
+
+
+
+
+
+
+/* MESSAGES-SECTION */
+.messages {
+  width: 100%;
+  min-height: 600px; /* flexible height */
+  background-image: url(./assets/about\ message.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.message {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke; /* overlay for readability */
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.message h1 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.message h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.message p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 20px auto; /* center & spacing */
+  text-align: center;
+}
+
+/* ============================= */
+/* RESPONSIVE DESIGN */
+/* ============================= */
+
+/* Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .message {
+    padding: 30px;
+  }
+
+  .message h1 {
+    font-size: 24px;
+  }
+
+  .message h2 {
+    font-size: 18px;
+  }
+
+  .message p {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .message {
+    padding: 20px;
+  }
+
+  .message h1 {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  .message h2 {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .message p {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 0 5px;
+  }
+}

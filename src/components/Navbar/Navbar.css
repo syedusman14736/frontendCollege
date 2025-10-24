@@ -1,0 +1,9 @@
+.sub-menu a {
+    color: var(--ed-color-heading-primary);
+}
+
+.sub-menu a:hover,
+.sub-menu a.active {
+    color: var(--ed-color-theme-primary);
+    font-weight: 500;
+}
