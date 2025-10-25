@@ -1,6 +1,5 @@
-import Header from "../../components/Header/Header"
 import Navbar from "../../components/Navbar/Navbar"
-import Topbar from "../../components/topbar/Topbar"
+import Topbar from "../../components/Topbar/Topbar"
 import Hero from "../../components/Hero/Hero"
 import Message from "../../components/Message/Message"
 import Faq from "../../components/Faq/Faq"
@@ -10,6 +9,7 @@ import News from "../../components/News/News"
 import Footer from "../../components/Footer/Footer"
 import { useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
+import Header from "../../components/Header/Header"
 
 
 export const Home = () => {

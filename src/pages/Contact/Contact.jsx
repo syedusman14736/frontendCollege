@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import Header from "../../components/Header/Header"
 import Navbar from "../../components/Navbar/Navbar"
-import Topbar from "../../components/topbar/Topbar"
+import Topbar from "../../components/Topbar/Topbar"
 import Footer from "../../components/Footer/Footer"
 
 export const Contact = () => {
