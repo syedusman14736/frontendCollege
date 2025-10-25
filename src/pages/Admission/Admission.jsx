@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Footer from "../../components/Footer/Footer"
-import Header from "../../components/header/Header"
+import Header from "../../components/Header/Header"
 import Navbar from "../../components/Navbar/Navbar"
 import Topbar from "../../components/topbar/Topbar"
 import { tablesDB } from "../../appwrite"
