@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={"COMING SOON"}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/admission" element={<Admission />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
