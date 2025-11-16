@@ -38,7 +38,7 @@ function News() {
                             newsList.map((news, index) => (
                                 <div key={index} className="post-card-2 wow fade-in-bottom" data-wow-delay="400ms">
                                     <div className="post-thumb">
-                                        <img src="./src/assets/images/images/news.jpg" alt="post" />
+                                        <img src="/images/images/news.jpg" alt="post" />
                                     </div>
 
                                     <div className="post-content-wrap">

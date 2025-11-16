@@ -1,14 +1,12 @@
 import { useEffect } from "react"
 import Header from "../../components/Header/Header"
 import Navbar from "../../components/Navbar/Navbar"
-import Topbar from "../../components/Topbar/Topbar"
 import Footer from "../../components/Footer/Footer"
 
 export const Contact = () => {
     return (
         <>
             <Header>
-                <Topbar />
                 <Navbar />
             </Header>
 
@@ -16,9 +14,9 @@ export const Contact = () => {
                 <div className="bg-item">
                     <div className="overlay"></div>
                     <div className="shapes">
-                        <div className="shape shape-1"><img src="/src/assets/images/shapes/page-header-shape-1.png" alt="shape" /></div>
-                        <div className="shape shape-2"><img src="/src/assets/images/shapes/page-header-shape-2.png" alt="shape" /></div>
-                        <div className="shape shape-3"><img src="/src/assets/images/shapes/page-header-shape-3.png" alt="shape" /></div>
+                        <div className="shape shape-1"><img src="/images/shapes/page-header-shape-1.png" alt="shape" /></div>
+                        <div className="shape shape-2"><img src="/images/shapes/page-header-shape-2.png" alt="shape" /></div>
+                        <div className="shape shape-3"><img src="/images/shapes/page-header-shape-3.png" alt="shape" /></div>
                     </div>
                 </div>
                 <div className="container">
@@ -80,7 +78,7 @@ export const Contact = () => {
                             <div class="contact-content">
                                 <div class="contact-top">
                                     <h3 class="title">Information</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti!.</p>
+                                    <p>Have questions? Fill out the form below and we will get back to you as soon as possible.</p>
                                 </div>
                                 <div class="contact-list">
                                     <div class="list-item">
@@ -89,8 +87,8 @@ export const Contact = () => {
                                         </div>
                                         <div class="content">
                                             <h4 class="title">Phone Number & Email</h4>
-                                            <span><a href="tel:+65485965789">+92-1233423213</a></span>
-                                            <span><a href="mailto:hello@edcare.com">hello@email.com</a></span>
+                                            <span><a href="tel:+65485965789">021-99202133</a></span>
+                                            <span><a href="mailto:hello@edcare.com">fgbckci@gmail.com</a></span>
                                         </div>
                                     </div>
                                     <div class="list-item">
@@ -99,7 +97,7 @@ export const Contact = () => {
                                         </div>
                                         <div class="content">
                                             <h4 class="title">Our College Address</h4>
-                                            <p>Lorem ipsum dolor sit amet. <br />Karachi, Pakistan</p>
+                                            <p>Fg Boys Inter College, Dr Daud Pota Road Near Abdul Sattar Edhi Hockey Stadium, Karachi Cantt</p>
                                         </div>
                                     </div>
                                     <div class="list-item">
@@ -108,8 +106,8 @@ export const Contact = () => {
                                         </div>
                                         <div class="content">
                                             <h4 class="title">Official Work Time</h4>
-                                            <span>Monday - Friday: 09:00 - 20:00</span>
-                                            <span>Sunday & Saturday: 10:30 - 22:00</span>
+                                            <span>Monday - Thursday: 08:00 - 02:00 PM</span>
+                                            <span>Friday: 08:00 - 12:30 PM</span>
                                         </div>
                                     </div>
                                 </div>

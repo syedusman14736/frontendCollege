@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import Navbar from "../../components/Navbar/Navbar"
-import Topbar from "../../components/Topbar/Topbar"
 import { tablesDB } from "../../appwrite"
 import { ID } from "appwrite"
 
@@ -105,7 +104,6 @@ function Admission() {
     return (
         <>
             <Header>
-                <Topbar />
                 <Navbar />
             </Header>
 
@@ -113,9 +111,9 @@ function Admission() {
                 <div className="bg-item">
                     <div className="overlay"></div>
                     <div className="shapes">
-                        <div className="shape shape-1"><img src="/src/assets/images/shapes/page-header-shape-1.png" alt="shape" /></div>
-                        <div className="shape shape-2"><img src="/src/assets/images/shapes/page-header-shape-2.png" alt="shape" /></div>
-                        <div className="shape shape-3"><img src="/src/assets/images/shapes/page-header-shape-3.png" alt="shape" /></div>
+                        <div className="shape shape-1"><img src="/images/shapes/page-header-shape-1.png" alt="shape" /></div>
+                        <div className="shape shape-2"><img src="/images/shapes/page-header-shape-2.png" alt="shape" /></div>
+                        <div className="shape shape-3"><img src="/images/shapes/page-header-shape-3.png" alt="shape" /></div>
                     </div>
                 </div>
                 <div className="container">

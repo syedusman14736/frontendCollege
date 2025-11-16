@@ -1,5 +1,4 @@
 import Navbar from "../../components/Navbar/Navbar"
-import Topbar from "../../components/Topbar/Topbar"
 import Hero from "../../components/Hero/Hero"
 import Message from "../../components/Message/Message"
 import Faq from "../../components/Faq/Faq"
@@ -36,7 +35,6 @@ export const Home = () => {
         <div>
 
             <Header>
-                <Topbar />
                 <Navbar />
             </Header>
 

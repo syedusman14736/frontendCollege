@@ -17,7 +17,7 @@ function Staff() {
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="team-item-2 wow fade-in-bottom" data-wow-delay="200ms">
                             <div className="team-thumb">
-                                <img src="./src/assets/images/team/team-5.png" alt="team" />
+                                <img src="/images/team/team-5.png" alt="team" />
                                 <div className="team-content">
                                     <div className="instructor-info">
                                         <h3 className="title"><a href="teachers.html">Name</a></h3>
@@ -41,7 +41,7 @@ function Staff() {
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="team-item-2 wow fade-in-bottom" data-wow-delay="400ms">
                             <div className="team-thumb">
-                                <img src="./src/assets/images/team/team-6.png" alt="team" />
+                                <img src="/images/team/team-6.png" alt="team" />
                                 <div className="team-content">
                                     <div className="instructor-info">
                                         <h3 className="title"><a href="teachers.html">Name</a></h3>
@@ -65,7 +65,7 @@ function Staff() {
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="team-item-2 wow fade-in-bottom" data-wow-delay="500ms">
                             <div className="team-thumb">
-                                <img src="./src/assets/images/team/team-7.png" alt="team" />
+                                <img src="/images/team/team-7.png" alt="team" />
                                 <div className="team-content">
                                     <div className="instructor-info">
                                         <h3 className="title"><a href="teachers.html">Name</a></h3>
@@ -89,7 +89,7 @@ function Staff() {
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="team-item-2 wow fade-in-bottom" data-wow-delay="600ms">
                             <div className="team-thumb">
-                                <img src="./src/assets/images/team/team-8.png" alt="team" />
+                                <img src="/images/team/team-8.png" alt="team" />
                                 <div className="team-content">
                                     <div className="instructor-info">
                                         <h3 className="title"><a href="teachers.html">Name</a></h3>

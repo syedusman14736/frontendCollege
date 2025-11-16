@@ -7,10 +7,10 @@ function Faq() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="faq-img-wrap-2 wow fade-in-left" data-wow-delay="400ms">
-                            <div className="faq-img-1"><img src="./src/assets/images/images/faq-img-2.png" alt="faq" /></div>
-                            <div className="faq-img-2"><img src="./src/assets/images/images/faq-img-3.png" alt="faq" /></div>
-                            <div className="faq-img-3"><img src="./src/assets/images/images/faq-img-4.png" alt="faq" /></div>
-                            
+                            <div className="faq-img-1"><img src="images/gallery/images/1.jpg" alt="faq" /></div>
+                            <div className="faq-img-2"><img src="images/gallery/images/3.jpeg" alt="faq" /></div>
+                            <div className="faq-img-3"><img src="images/gallery/images/5.jpeg" alt="faq" /></div>
+
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
@@ -31,7 +31,7 @@ function Faq() {
                                         <div id="collapseOne" className="accordion-collapse collapse show"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                                Students who have passed their Matriculation/SSC or equivalent examination from a recognized board are eligible to apply.
+                                                Students who have passed their Matriculation/SSC or equivalent examination from a recognized board are eligible to apply. However, a minimum of 50% marks is required for admission in Arts subjects and 60% marks for admission in Science subjects.
                                             </div>
                                         </div>
                                     </div>
@@ -44,7 +44,7 @@ function Faq() {
                                         <div id="collapseTwo" className="accordion-collapse collapse"
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                              Applicants need to submit their Matric mark sheet, character certificate, recent passport-size photographs, and a copy of their CNIC/B-Form.
+                                                Applicants need to submit their Matric mark sheet, character certificate, recent passport-size photographs, and a copy of their CNIC/B-Form.
                                             </div>
                                         </div>
                                     </div>
@@ -57,7 +57,7 @@ function Faq() {
                                         <div id="collapseThree" className="accordion-collapse collapse"
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                                Classes usually start in the morning shift from 8:00 AM to 1:00 PM. Exact timings are announced at the beginning of the academic session.
+                                                Classes usually start in the morning shift from 8:00 AM to 2:00 PM. Exact timings are announced at the beginning of the academic session.
                                             </div>
                                         </div>
                                     </div>
